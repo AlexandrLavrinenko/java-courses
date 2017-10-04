@@ -2,7 +2,7 @@ package ru.job4j;
 
     /**
      * Class Calculate. 
-	 * Тестовое задание. Вывод на консоль фразы "Hello, world".
+	 * Тестовое задание - вывод на консоль фразы "Hello, world".
 	 * @autor alavrinenko.
 	 * @return String value.
      */
