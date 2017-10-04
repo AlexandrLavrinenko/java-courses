@@ -6,7 +6,6 @@ import static org.junit.Assert.assertThat;
 
 /**
 * Test.
-*
 * @author alavrinenko (mailto:alexandr.lavrinenko@gmail.com).
 * @version $Id$.
 * @since 0.1.
