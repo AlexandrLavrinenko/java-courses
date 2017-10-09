@@ -30,6 +30,7 @@
 
 -->
 
+<!--suppress ALL, XmlHighlighting -->
 <module name="Checker">
 
     <!--Расширение файла должно быть java, properties, xml-->
