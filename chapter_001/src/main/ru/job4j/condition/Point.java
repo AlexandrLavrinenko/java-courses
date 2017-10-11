@@ -3,7 +3,7 @@ package ru.job4j.condition;
 /**
  * Class Point.
  * Тестовое задание - нахождение положения точки.
- * Проверка условия - соответствует функции или нет
+ * Проверка условия - соответствует функции или нет.
  *
  * @autor alavrinenko.
  * @return double result.
@@ -46,7 +46,6 @@ public class Point {
      * @param b .
      */
     public boolean is(int a, int b) {
-        return getY() == a * getX() + b; // используя координаты точки и вычисления функции y(x) = a * x + b
+        return this.y == a * this.x + b; // используя координаты точки и вычисления функции y(x) = a * x + b
     }
-
 }
