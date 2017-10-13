@@ -17,4 +17,15 @@ public class Max {
     public int max(int first, int second) {
         return (first >= second) ? first : second;
     }
+
+    /**
+     * Method maxThird.
+     * Находим максимальное значение из трех чисел, использую предыдущий метод.
+     * @param first .
+     * @param second .
+     * @param third .
+     */
+    public int maxThird(int first, int second, int third) {
+        return max(first, max(second, third));
+    }
 }
