@@ -5,14 +5,12 @@ package ru.job4j.loop;
  * Тестовое задание - построить шахматную доску в псевдографике.
  *
  * @autor alavrinenko.
- * @return double result.
+ * @return String result.
  */
 public class Board {
     /**
      * Method paint.
      * Рисует шахматную доску из символов x и пробелов.
-     * Если элемент задан отрицательным - возвращает -1.
-     * Для нуля - возвращает 1.
      * Для сложения строк используем класс StringBuilder - и методы append(String), String toString()
      *
      * @param width  - ширина доски.
