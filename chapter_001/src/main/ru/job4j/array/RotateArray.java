@@ -23,7 +23,6 @@ public class RotateArray {
         // поворот вправо
         for (int i = 0; i < col/2; i++) {
             for (int j = i; j < row-1-i; j++) {
-
                 int tmp                 = array[i][j];
                 array[i][j]             = array[row-j-1][i];
                 array[row-j-1][i]       = array[col-i-1][row-j-1];
