@@ -12,12 +12,12 @@ import java.util.Arrays;
  */
 public class WordInAnotherWord {
     /**
-     * Main method.
-     * Главный метод для вывода текстовой строки в консоль.
+     * Method contains.
+     * Поиск строки в подстроке.
      *
-     * @param origin - строка в которой осуществляем поиск.
-     * @param sub    - строка, которую ищем.
-     * @return Boolean value (True - если нашли, False - если нет).
+     * @param origin исходная строка.
+     * @param sub строка поиска.
+     * @return boolean - входит или нет искомая строка в исходную.
      */
     boolean contains(String origin, String sub) {
         boolean result = false;
